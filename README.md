@@ -1,5 +1,5 @@
 # elastic-sdk
-Python scripts used to automate various management, administration and troubleshooting tasks
+Python and some bash scripts used to automate various management, administration and troubleshooting tasks
 
 # Python Scripts
 
