@@ -222,6 +222,7 @@ def monitor_share_report(clusters, username, password, current_date):
         es = init_es_client(cluster_urls, username, password)
 
         # GET _cluster/health
+        # adjust this to have the name and number of nodes that you have in your own cluster or clusters
         cluster_health = es.cluster.health()
         if cluster_health['cluster_name'] == "cluster1":
             number_nodes = 1
